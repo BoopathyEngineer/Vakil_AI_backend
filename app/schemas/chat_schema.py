@@ -50,7 +50,7 @@ class ChatRequestSchema(BaseModel):
     question: str
     user_id: int
     chat_id: str
-    document_text: str | None = None
+    document_text: str 
 
 
     @field_validator("question")
